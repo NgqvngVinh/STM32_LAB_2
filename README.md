@@ -42,7 +42,3 @@ Each `exN/` ships with two subfolders:
 
 - 📄 [`docs/requirement.pdf`](docs/requirement.pdf) — official lab brief (Lab 2 Timer)
 - 🎬 [`docs/videos/ex9_demo.mp4`](docs/videos/ex9_demo.mp4) — Proteus demo of ex9 (digital clock)
-
-## License
-
-STMicroelectronics sample code is governed by the license shipped in each file header (`Copyright (c) 2024 STMicroelectronics`). Code written by the team is for academic use only — no commercial license.
