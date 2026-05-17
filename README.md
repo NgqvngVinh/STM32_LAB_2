@@ -14,7 +14,7 @@
 | `ex8/`  | Proteus-only: refined variant of ex8 |
 | `ex9/`  | Full digital clock (HH:MM:SS) |
 | `sandbox/` | Reference projects: `led_blinky`, `timer_interrupt` |
-| `docs/` | Lab requirement (PDF) + Proteus demo video |
+| `docs/` | Proteus demo video (lab brief withheld per school policy) |
 
 Each `exN/` ships with two subfolders:
 - `stm32/` — STM32CubeIDE project (open via *Import existing project*)
@@ -40,5 +40,6 @@ Each `exN/` ships with two subfolders:
 
 ## Reports & references
 
-- 📄 [`docs/requirement.pdf`](docs/requirement.pdf) — official lab brief (Lab 2 Timer)
 - 🎬 [`docs/videos/ex9_demo.mp4`](docs/videos/ex9_demo.mp4) — Proteus demo of ex9 (digital clock)
+
+> The official lab brief is **not** published in this repo per school policy. Team members can find their local copy at `docs/requirement.pdf` (gitignored).

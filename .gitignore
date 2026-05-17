@@ -81,3 +81,6 @@ desktop.ini
 *.pem
 *.key
 credentials.json
+
+# Course materials: do not publish per school policy
+/docs/requirement.pdf
