@@ -1,48 +1,50 @@
-# Prerequisites
+# ────────────────────────────────────────────────
+# STM32CubeIDE / GCC build artefacts
+# ────────────────────────────────────────────────
+Debug/
+Release/
 *.d
-
-# Object files
 *.o
 *.ko
 *.obj
 *.elf
+*.hex
+*.bin
+*.map
+*.list
+*.lst
+*.su
+*.cyclo
+*.idb
+*.pdb
+*.dSYM/
 
 # Linker output
 *.ilk
-*.map
 *.exp
 
-# Precompiled Headers
+# Precompiled headers
 *.gch
 *.pch
 
-# Libraries
+# Static / shared libraries
 *.lib
 *.a
 *.la
 *.lo
-
-# Shared objects (inc. Windows DLLs)
 *.dll
 *.so
 *.so.*
 *.dylib
 
-# Executables
+# Native executables
 *.exe
 *.out
 *.app
 *.i*86
 *.x86_64
-*.hex
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
+# Kernel modules
 *.mod*
 *.cmd
 .tmp_versions/
@@ -50,3 +52,32 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# ────────────────────────────────────────────────
+# Proteus per-user / auto-backup state
+# ────────────────────────────────────────────────
+*.pdsprj.*.workspace
+Backup Of *.pdsbak
+Last Loaded *.pdsbak
+*.pdsbad
+
+# ────────────────────────────────────────────────
+# IDE / editor per-user files
+# ────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Secrets — never commit
+.env
+.env.*
+*.pem
+*.key
+credentials.json
